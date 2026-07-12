@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+<div class="container">
+<form>
+    <h1>Student registration form</h1>
+    Roll No:
+  <input type="text" placeholder="Enter Roll No" required>
+    <br>
+    Name:
+ <input type="text" placeholder="Enter Your Name" required>
+    <br>
+    Father's name:
+  <input type="text" placeholder="Enter Father's Name" required>
+    <br>
+    Gender:
+    <input type="radio" name="gender" >Male
+        <input type="radio" name="gender" >Female
+        <br>
+Date of Birth:
+        <input type="date">
+        <br>
+        City:
+        <select required>
+            <option>Select Your city</option>
+            <option>Lahore</option>
+             <option>Karachi</option>
+              <option>Islamabad</option>
+               <option>Gujrat</option>
+                <option>Multan</option>
+        </select>
+        <br>
+        <br>
+        Phone Number:
+        <input type="number" required>
+        <br>
+
+        Department:
+        <input type="radio" name="dep">CS
+           <input type="radio" name="dep">SE
+              <input type="radio" name="dep">AI
+                 <input type="radio" name="dep">Civil
+                    <input type="radio" name="dep">Fintech
+                    <br>
+
+                    Student Photo:
+                    <input type="file">
+                    <br>
+        Email address:
+        <input type="email" required>
+        <br>
+        Password:
+        <input type="password" readonly>
+        <br>
+        Address:
+        <br>
+        <textarea rows="4" cols="30"></textarea>
+        <br>
+        <button>Submit</button>
+        </form>
+    </div>
+</body>
+</html>
